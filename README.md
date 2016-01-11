@@ -8,9 +8,9 @@
 
 NACA airfoils map a four digit code to an airfoil shape. For example, a '2412' airfoil is parsed to mean:
 
-- The leading '2' indicates 0.02% maximum camber
-- The '4' indicates maximum camber at 40% of the chord length
-- The '12' indicates maximum thickness of 12% of the chord length
+- The leading '2' indicates maximum camber is 2% of chord length
+- The '4' indicates maximum camber is at 40% of the chord length
+- The '12' indicates maximum thickness is 12% of the chord length
 
 [![NACA 2412](./images/2412.png)](http://rickyreusser.com/naca-four-digit-airfoil/?naca=2412)
 
