@@ -1,0 +1,35 @@
+{
+  "name": "naca-four-digit-airfoil",
+  "version": "1.0.0",
+  "description": "The equations for a NACA four-digit series airfoil",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && mocha test/*.js",
+    "start": "watchify example/example.js -o example/bundle.js",
+    "build-example": "browserify example/src/example.js -o example/dist/bundle.js && cp example/src/*.html example/dist",
+    "deploy-example": "gh-pages -d example/dist"
+  },
+  "author": "Ricky Reusser",
+  "license": "MIT",
+  "devDependencies": {
+    "almost-equal": "^1.0.0",
+    "canvas-fit": "^1.5.0",
+    "chai": "^3.4.1",
+    "gh-pages": "^0.8.0",
+    "mocha": "^2.3.4",
+    "query-string": "^3.0.0",
+    "standard": "^5.4.1",
+    "util-extend": "^1.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rreusser/naca-four-digit-airfoil.git"
+  },
+  "keywords": [
+    "airfoil",
+    "naca",
+    "aerodynamics",
+    "engineering",
+    "aerospace"
+  ]
+}
