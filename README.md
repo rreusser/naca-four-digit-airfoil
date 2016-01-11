@@ -39,6 +39,8 @@ $ npm install naca-four-digit-airfoil
 
 ## API
 
+### Based on NACA Code
+
 #### `require('naca-four-digit-airfoil')(nacaAirfoilCode[, chordLength = 1])`
 Parses the airfoil code and returns an object with functions that evaluate the shape of the airfoil for a unit chord length. Arguments are:
 
@@ -56,6 +58,21 @@ The object returned contains the following functions:
 - **`yUpper: function(x)`**: The y-coordinate of the upper surface of the airfoil.
 - **`xLower: function(x)`**: The x-coordinate of the lower surface of the airfoil.
 - **`yLower: function(x)`**: The y-coordinate of the lower surface of the airfoil.
+
+### As Plain Functions
+
+The functions are also available as unadorned functions accessible on the plain module. Using the variables defined above, they are:
+
+- **`parse`**: `function(code)`: Parse the four-character `String` airfoil code, returning `m` (the amount of camber as a fraction of chord length), `p` (the location of maximum camber as a fraction of chord length), and `t` (thickness as a fraction of chord length).
+- **`thickness`**: `function(x, c, t)`
+- **`camberLine`**: `function(x, c, m, p)`
+- **`camberLineSlope`**: `function(x, c, m, p)`
+- **`leadingEdgeRadius`**: `function(t, c)`
+- **`xLower`**: `function(x, c, m, p, t)`
+- **`xUpper`**: `function(x, c, m, p, t)`
+- **`yLower`**: `function(x, c, m, p, t)`
+- **`yUpper`**: `function(x, c, m, p, t)`
+- **`evaluate`**: `function(x, c, m, p, t)`
 
 ## License
 

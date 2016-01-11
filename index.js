@@ -4,6 +4,10 @@ airfoil.thickness = thickness
 airfoil.camberLine = camberLine
 airfoil.camberLineSlope = camberLineSlope
 airfoil.leadingEdgeRadius = leadingEdgeRadius
+airfoil.xUpper = xUpper
+airfoil.yUpper = yUpper
+airfoil.xLower = xLower
+airfoil.yLower = yLower
 airfoil.evaluate = evaluate
 airfoil.parse = parse
 

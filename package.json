@@ -1,6 +1,6 @@
 {
   "name": "naca-four-digit-airfoil",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The equations for a NACA four-digit series airfoil",
   "main": "index.js",
   "scripts": {
