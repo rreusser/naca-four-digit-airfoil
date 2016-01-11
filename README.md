@@ -1,5 +1,7 @@
 # naca-four-digit-airfoil
 
+[![Build Status](https://travis-ci.org/rreusser/naca-four-digit-airfoil.svg)](https://travis-ci.org/rreusser/naca-four-digit-airfoil) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+
 > The equations for a NACA four-digit series airfoil
 
 ## Introduction
