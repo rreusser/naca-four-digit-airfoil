@@ -41,8 +41,8 @@ function parse (nacaCode) {
   }
 }
 
-function airfoil (nacaCode, c) {
-  var params = parse(nacaCode)
+function airfoil (nacaCodeOrData, c) {
+  var params = (typeof nacaCodeOrData === 'string') ? parse(nacaCodeOrData) : nacaCodeOrData
 
   if (c === undefined) {
     c = 1
