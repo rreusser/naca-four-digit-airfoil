@@ -12,13 +12,13 @@ NACA airfoils map a four digit code to an airfoil shape. For example, a '2412' a
 - The '4' indicates maximum camber is at 40% of the chord length
 - The '12' indicates maximum thickness is 12% of the chord length
 
-[![NACA 2412](./images/2412.png)](http://rickyreusser.com/naca-four-digit-airfoil/?naca=2412)
+[![NACA 2412](./images/2412.png)](http://rreusser.github.io/naca-four-digit-airfoil/?naca=2412)
 
 Live examples (change the query string to create your own):
 
-- [NACA 2412](http://rickyreusser.com/naca-four-digit-airfoil/?naca=2412)
-- [NACA 0012](http://rickyreusser.com/naca-four-digit-airfoil/?naca=0012)
-- [NACA 3418](http://rickyreusser.com/naca-four-digit-airfoil/?naca=3418)
+- [NACA 2412](http://rreusser.github.io/naca-four-digit-airfoil/?naca=2412)
+- [NACA 0012](http://rreusser.github.io/naca-four-digit-airfoil/?naca=0012)
+- [NACA 3418](http://rreusser.github.io/naca-four-digit-airfoil/?naca=3418)
 
 ## Example
 
